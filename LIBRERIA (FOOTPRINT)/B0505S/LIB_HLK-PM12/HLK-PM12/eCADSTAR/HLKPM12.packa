@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "HLK-PM12"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-09-08-06:37:58)
+    (mountForm default
+        (footprintRef "HLKPM12")
+        (spec "System")
+    )
+)

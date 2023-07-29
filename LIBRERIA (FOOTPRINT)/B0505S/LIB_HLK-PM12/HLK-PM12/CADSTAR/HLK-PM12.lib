@@ -1,0 +1,18 @@
+.HLK-PM12 :1 ;3WUltra-small PowerModule
+HLKPM12
+*STM PS
+*NGS
+*PLB 1="AC_1" 2="AC_2" 3="-V0" 4="+V0"
+*MXP 4
+*DFN HLK-PM12
+~!Manufacturer_Name (Hi-Link)
+~!Manufacturer_Part_Number (HLK-PM12)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://static.chipdip.ru/lib/919/DOC012919592.pdf)
+~!Height (15mm)
+~!3D_Model (HLK-PM12)
+HLK-PM12
+1.1!U 2.1!U 3.1!U 4.1!U 

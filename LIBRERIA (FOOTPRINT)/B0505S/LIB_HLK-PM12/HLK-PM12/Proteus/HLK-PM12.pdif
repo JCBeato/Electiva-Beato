@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "HLK-PM12"
+   (description "3WUltra-small PowerModule")
+   (family "ANA")
+   (package "HLKPM12")
+   (attribute "Datasheet Link" "https://static.chipdip.ru/lib/919/DOC012919592.pdf")
+   (attribute "Geometry.Height" "15mm")
+   (attribute "Manufacturer_Name" "Hi-Link")
+   (attribute "Manufacturer_Part_Number" "HLK-PM12")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "HLK-PM12")
+    (pin "AC_1" 1 PS)
+    (pin "AC_2" 2 PS)
+    (pin "-V0" 3 PS)
+    (pin "+V0" 4 PS)
+   )
+  )
+  (symbol "HLK-PM12"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "HLKPM12"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.3 -12.5)
+      (pt 31.7 -12.5)
+      (pt 31.7 7.5)
+      (pt -2.3 7.5)
+      (pt -2.3 -12.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.3 8.5)
+      (pt 32.7 8.5)
+      (pt 32.7 -13.5)
+      (pt -3.3 -13.5)
+      (pt -3.3 8.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.3 7.5)
+      (pt 31.7 7.5)
+      (pt 31.7 -12.5)
+      (pt -2.3 -12.5)
+      (pt -2.3 7.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.9 0)
+      (arc (pt -2.900 0.000) (pt -2.900 -0.050) (pt -2.800 0.050) (start 180.0) (sweep 180.0))
+      (pt -2.8 0)
+      (arc (pt -2.800 0.000) (pt -2.900 -0.050) (pt -2.800 0.050) (start 180.0) (sweep .0))
+      (pt -2.9 0)
+      (arc (pt -2.900 0.000) (pt -2.900 -0.050) (pt -2.800 0.050) (start 180.0) (sweep 180.0))
+      (pt -2.8 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 -5.000) (padstack 0))
+   (leg 3 (pt 29.400 5.200) (padstack 0))
+   (leg 4 (pt 29.400 -10.200) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (model "HLK-PM12.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

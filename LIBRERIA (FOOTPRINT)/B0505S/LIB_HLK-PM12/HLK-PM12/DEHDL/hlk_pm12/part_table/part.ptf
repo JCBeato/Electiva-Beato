@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HLK_PM12'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Hi-Link", "HLK-PM12" (!) = "", "HLKPM12", "Other", "", "", "", "", "3WUltra-small PowerModule", "https://static.chipdip.ru/lib/919/DOC012919592.pdf", "15 mm"
+END_PART
+
+END.
