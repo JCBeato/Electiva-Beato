@@ -1,0 +1,122 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "FODM2705"
+   (description "Transistor Output Optocouplers AC In Phototransistr Output Optocoupler")
+   (family "ANA")
+   (package "SOP254P675X240-4N")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pdf/datasheet/fodm2705-d.pdf")
+   (attribute "Geometry.Height" "2.4mm")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "FODM2705")
+   (attribute "Mouser Part Number" "512-FODM2705")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FODM2705?qs=w2ACn%2FLS38EYreIlWngSsw%3D%3D")
+   (attribute "Arrow Part Number" "FODM2705")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/fodm2705/on-semiconductor?region=europe")
+   (gate
+    (symbol "FODM2705")
+    (pin "ANODE" 1 PS)
+    (pin "CATHODE" 2 PS)
+    (pin "COLLECTOR" 4 PS)
+    (pin "EMITTER" 3 PS)
+   )
+  )
+  (symbol "FODM2705"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP254P675X240-4N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -4.225 2.325)
+      (pt 4.225 2.325)
+      (pt 4.225 -2.325)
+      (pt -4.225 -2.325)
+      (pt -4.225 2.325))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.2 1.925)
+      (pt 2.2 1.925)
+      (pt 2.2 -1.925)
+      (pt -2.2 -1.925)
+      (pt -2.2 1.925))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.2 -0.615)
+      (pt 0.34 1.925))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.85 1.925)
+      (pt 1.85 1.925)
+      (pt 1.85 -1.925)
+      (pt -1.85 -1.925)
+      (pt -1.85 1.925))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.975 1.945)
+      (pt -2.2 1.945))))
+   (leg 1 (pt -3.088 1.27) (padstack 0))
+   (leg 2 (pt -3.088 -1.27) (padstack 0))
+   (leg 3 (pt 3.088 -1.27) (padstack 0))
+   (leg 4 (pt 3.088 1.27) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.775 0 0 0))
+   )
+   (model "FODM2705.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

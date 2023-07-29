@@ -1,0 +1,18 @@
+.FODM2705 :1 ;Transistor Output Optocouplers AC In Phototransistr Output Optocoupler
+SOP254P675X240-4N
+*STM Q
+*NGS
+*PLB 1="ANODE" 2="CATHODE" 3="EMITTER" 4="COLLECTOR"
+*MXP 4
+*DFN FODM2705
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (FODM2705)
+~!Mouser Part Number (512-FODM2705)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FODM2705?qs=w2ACn%2FLS38EYreIlWngSsw%3D%3D)
+~!Arrow Part Number (FODM2705)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fodm2705/on-semiconductor?region=europe)
+~!Link Datasheet (https://www.onsemi.com/pdf/datasheet/fodm2705-d.pdf)
+~!Height (2.4mm)
+~!3D_Model (FODM2705)
+FODM2705
+1.1!U 2.1!U 4.1!U 3.1!U 

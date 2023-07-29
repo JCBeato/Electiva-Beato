@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FODM2705
+D Transistor Output Optocouplers AC In Phototransistr Output Optocoupler
+K
+F https://www.onsemi.com/pdf/datasheet/fodm2705-d.pdf
+$ENDCMP
+#
+#End Doc Library
