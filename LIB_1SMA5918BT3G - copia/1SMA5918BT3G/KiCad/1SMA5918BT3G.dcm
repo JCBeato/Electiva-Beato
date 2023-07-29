@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1SMA5918BT3G
+D Diode Zener 5.1V 5% 1.5W SMA ON Semiconductor 1SMA5918BT3G Zener Diode, 5.1V 5% 0.5 W SMT 2-Pin SMA
+K
+F http://www.onsemi.com/pub/Collateral/1SMA5913BT3-D.PDF
+$ENDCMP
+#
+#End Doc Library
