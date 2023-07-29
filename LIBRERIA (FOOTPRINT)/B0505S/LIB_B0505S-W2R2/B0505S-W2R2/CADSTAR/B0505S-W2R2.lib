@@ -1,0 +1,18 @@
+.B0505S-W2R2 :1 ;DC/DC Converter
+B0505SW2R2
+*STM PS
+*NGS
+*PLB 1="GND" 2="VIN" 3="0V" 4="+VO"
+*MXP 4
+*DFN B0505S-W2R2
+~!Manufacturer_Name (Mornsun Power)
+~!Manufacturer_Part_Number (B0505S-W2R2)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://pdf1.alldatasheet.com/datasheet-pdf/view/1102443/MORNSUN/B0505S-W2R2.html)
+~!Height (10.41mm)
+~!3D_Model (B0505S-W2R2)
+B0505S-W2R2
+1.1!U 2.1!U 3.1!U 4.1!U 
