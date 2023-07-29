@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MOVTP20V275N'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Eaton", "MOVTP20V275N" (!) = "", "MOVTP20V275N", "Other", "", "", "", "", "430 V 10 kA Varistor 1 Circuit Through Hole Disc 20mm", "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-movtp-metal-oxide-varistor-thermal-protected-data-sheet-elx1079-en.pdf", "31.5 mm"
+END_PART
+
+END.

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MOVTP20V275N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MOVTP20V275N")
+        (spec "default")
+    )
+)

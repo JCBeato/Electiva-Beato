@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MOVTP20V275N
+D 430 V 10 kA Varistor 1 Circuit Through Hole Disc 20mm
+K
+F https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-movtp-metal-oxide-varistor-thermal-protected-data-sheet-elx1079-en.pdf
+$ENDCMP
+#
+#End Doc Library

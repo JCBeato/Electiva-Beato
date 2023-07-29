@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MOVTP20V275N"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-30-05:27:22)
+    (mountForm default
+        (footprintRef "MOVTP20V275N")
+        (spec "System")
+    )
+)

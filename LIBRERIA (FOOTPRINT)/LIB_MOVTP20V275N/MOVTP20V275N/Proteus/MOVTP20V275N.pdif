@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MOVTP20V275N"
+   (description "430 V 10 kA Varistor 1 Circuit Through Hole Disc 20mm")
+   (family "ANA")
+   (package "MOVTP20V275N")
+   (attribute "Datasheet Link" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-movtp-metal-oxide-varistor-thermal-protected-data-sheet-elx1079-en.pdf")
+   (attribute "Geometry.Height" "31.5mm")
+   (attribute "Manufacturer_Name" "Eaton")
+   (attribute "Manufacturer_Part_Number" "MOVTP20V275N")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "MOVTP20V275N")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "MOVTP20V275N"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 150 -100) (pt 250 -100) (pt 450 100) (pt 550 100))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MOVTP20V275N"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7 5.3)
+      (pt 14.5 5.3)
+      (pt 14.5 -5.3)
+      (pt -7 -5.3)
+      (pt -7 5.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -7 5.3)
+      (pt 14.5 5.3)
+      (pt 14.5 -5.3)
+      (pt -7 -5.3)
+      (pt -7 5.3))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8 6.3)
+      (pt 15.5 6.3)
+      (pt 15.5 -6.3)
+      (pt -8 -6.3)
+      (pt -8 6.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.45 0)
+      (arc (pt -7.450 0.000) (pt -7.550 -0.050) (pt -7.450 0.050) (start 180.0) (sweep .0))
+      (pt -7.55 0)
+      (arc (pt -7.550 0.000) (pt -7.550 -0.050) (pt -7.450 0.050) (start 180.0) (sweep -180.0))
+      (pt -7.45 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 7.500 0.000) (padstack 2))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (padstack 2
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "MOVTP20V275N.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

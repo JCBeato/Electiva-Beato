@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_17977492"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-30-05:27:22)
+    (utime 2023-04-30-05:27:22)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MOVTP20V275N")
+)
+
+
+(pinAssign "ECS_17977492"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-30-05:27:22)
+    (utime 2023-04-30-05:27:22)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17977492")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MOVTP20V275N")
+)
+
+
+(part "MOVTP20V275N"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-30-05:27:22)
+    (utime 2023-04-30-05:27:22)
+    (packageRef "MOVTP20V275N")
+    (pinAssignRef "ECS_17977492")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "RV")
+    (property "description" "430 V 10 kA Varistor 1 Circuit Through Hole Disc 20mm")
+    (property "Manufacturer_Name" "Eaton")
+    (property "Manufacturer_Part_Number" "MOVTP20V275N")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-movtp-metal-oxide-varistor-thermal-protected-data-sheet-elx1079-en.pdf")
+    (property "compAreaTopHeight" 31.5)
+)
+
+
