@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM1117T-3_3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-02-04-13:52:15)
+    (mountForm default
+        (footprintRef "TO254P470X1016X2222-3P")
+        (spec "System")
+    )
+)

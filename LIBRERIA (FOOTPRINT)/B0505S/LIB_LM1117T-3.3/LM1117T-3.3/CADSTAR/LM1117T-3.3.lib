@@ -1,0 +1,18 @@
+.LM1117T-3.3 :1 ;IC, LDO VOLT REG, 3.3V, 0.8A
+TO254P470X1016X2222-3P
+*STM IC
+*NGS
+*PLB 1="ADJ/GND" 2="OUT" 3="IN"
+*MXP 3
+*DFN LM1117T-3.3
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM1117T-3.3)
+~!Mouser Part Number (926-LM1117T-33)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117T-33?qs=X1J7HmVL2ZH3OLKrAL3taQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (-)
+~!Height (-)
+~!3D_Model (LM1117T-3.3)
+LM1117T-3.3
+1.1!U 2.1!U 3.1!U 

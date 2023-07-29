@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM1117T_3.3'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Texas Instruments", "LM1117T-3.3" (!) = "", "TO254P470X1016X2222-3P", "Other", "926-LM1117T-33", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117T-33?qs=X1J7HmVL2ZH3OLKrAL3taQ%3D%3D", "", "", "IC, LDO VOLT REG, 3.3V, 0.8A", ""
+END_PART
+
+END.

@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LM1117T-3.3"
+   (description "IC, LDO VOLT REG, 3.3V, 0.8A")
+   (family "ANA")
+   (package "TO254P470X1016X2222-3P")
+   (attribute "Datasheet Link" "")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "LM1117T-3.3")
+   (attribute "Mouser Part Number" "926-LM1117T-33")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117T-33?qs=X1J7HmVL2ZH3OLKrAL3taQ%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "LM1117T-3.3")
+    (pin "ADJ/GND" 1 PS)
+    (pin "OUT" 2 PS)
+    (pin "IN" 3 PS)
+   )
+  )
+  (symbol "LM1117T-3.3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P470X1016X2222-3P"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -7.8232 -2.8448)
+      (pt 2.7432 -2.8448))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 2.7432 -2.8448)
+      (pt 2.7432 1.8288))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 2.7432 1.8288)
+      (pt -7.8232 1.8288))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -7.8232 1.8288)
+      (pt -7.8232 -2.8448))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -7.8232 -2.8448)
+      (pt 2.7432 -2.8448))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 2.7432 -2.8448)
+      (pt 2.7432 1.8288))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 2.7432 1.8288)
+      (pt -7.8232 1.8288))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -7.8232 1.8288)
+      (pt -7.8232 -2.8448))))
+   (leg 1 (pt -5.08 -1.016) (padstack 0))
+   (leg 2 (pt -2.54 -1.016) (padstack 2))
+   (leg 3 (pt 0 -1.016) (padstack 3))
+   (padstack 0
+    (hole 1.27)
+    (plated true)
+    (pad (layer TCOP) (square 1.905))
+    (pad (layer INNER) (round 1.905))
+    (pad (layer BCOP) (square 1.905))
+   )
+   (padstack 2
+    (hole 1.27)
+    (plated true)
+    (pad (layer TCOP) (round 1.905))
+    (pad (layer INNER) (round 1.905))
+    (pad (layer BCOP) (round 1.905))
+   )
+   (padstack 3
+    (hole 1.27)
+    (plated true)
+    (pad (layer TCOP) (round 1.905))
+    (pad (layer INNER) (round 1.905))
+    (pad (layer BCOP) (round 1.905))
+   )
+   (model "LM1117T-3.3.stp"
+    (euler 0 90 180)
+    (offset -2.5399999618530273 1.7799999713897705 17.06999969482422)
+   )
+  )
+ )
+)

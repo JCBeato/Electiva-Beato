@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM1117T-3.3
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2017-01-11 19:09:53
+Downloaded=2023-07-05 16:19:35
+3D=Y
