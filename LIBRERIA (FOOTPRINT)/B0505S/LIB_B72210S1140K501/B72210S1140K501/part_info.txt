@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B72210S1140K501
+PartCategory=Varistor
+PackageCategory=Other
+PinCount=2
+Version=4.3
+Released=2021-10-26 11:24:11
+Downloaded=2023-07-29 14:03:28
+3D=Y

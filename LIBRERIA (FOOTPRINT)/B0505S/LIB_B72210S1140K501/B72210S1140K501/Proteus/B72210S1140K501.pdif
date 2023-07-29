@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B72210S1140K501"
+   (description "Leaded Disk Varistors, Max. Operating Voltage [AC]=14Vrms, Max. Surge Current Imax(8/20us,1time)=500A")
+   (family "ANA")
+   (package "B72210S1140K501")
+   (attribute "Datasheet Link" "https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_automotive.pdf")
+   (attribute "Geometry.Height" "16mm")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "B72210S1140K501")
+   (attribute "Mouser Part Number" "871-B72210S1140K501")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72210S1140K501?qs=xN3cbABbNRaMbCGJ4Q1vYA%3D%3D")
+   (attribute "Arrow Part Number" "B72210S1140K501")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/b72210s1140k501/epcos-tdk")
+   (gate
+    (symbol "B72210S1140K501")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "B72210S1140K501"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 150 -100) (pt 250 -100) (pt 450 100) (pt 550 100))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "B72210S1140K501"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.25 -3.75)
+      (pt 10.75 -3.75)
+      (pt 10.75 2.25)
+      (pt -3.25 2.25)
+      (pt -3.25 -3.75))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.25 -2.75)
+      (arc (pt -0.250 -2.750) (pt -2.250 1.250) (pt 1.750 -2.750) (start -180.0) (sweep -90.0))
+      (pt -0.25 1.25)
+      (pt 7.75 1.25)
+      (arc (pt 7.750 1.250) (pt 5.750 1.250) (pt 9.750 -2.750) (start -180.0) (sweep 90.0))
+      (pt 7.75 -2.75)
+      (pt -0.25 -2.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.25 -2.75)
+      (arc (pt -0.250 -2.750) (pt -2.250 1.250) (pt 1.750 -2.750) (start -180.0) (sweep -90.0))
+      (pt -0.25 1.25)
+      (pt 7.75 1.25)
+      (arc (pt 7.750 1.250) (pt 5.750 1.250) (pt 9.750 -2.750) (start -180.0) (sweep 90.0))
+      (pt 7.75 -2.75)
+      (pt -0.25 -2.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.9 0)
+      (arc (pt -2.900 0.000) (pt -2.900 0.050) (pt -2.800 -0.050) (start 180.0) (sweep 180.0))
+      (pt -2.8 0)
+      (arc (pt -2.800 0.000) (pt -2.900 0.050) (pt -2.800 -0.050) (start 180.0) (sweep .0))
+      (pt -2.9 0)
+      (arc (pt -2.900 0.000) (pt -2.900 0.050) (pt -2.800 -0.050) (start 180.0) (sweep 180.0))
+      (pt -2.8 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 7.500 -1.500) (padstack 2))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (padstack 2
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "B72210S1140K501.stp"
+    (euler 90 0 0)
+    (offset 3.75 -0.75 7.739999771118164)
+   )
+  )
+ )
+)

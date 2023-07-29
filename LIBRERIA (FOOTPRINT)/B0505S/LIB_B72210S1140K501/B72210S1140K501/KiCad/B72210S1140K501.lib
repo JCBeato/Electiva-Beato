@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model B72210S1140K501
+#/3580313/1165364/2.50/2/2/Varistor
+DEF B72210S1140K501 RV 0 30 Y Y 1 F N
+F0 "RV" 550 250 50 H V L CNN
+F1 "B72210S1140K501" 550 150 50 H V L CNN
+F2 "B72210S1140K501" 550 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_automotive.pdf" 550 -50 50 H I L CNN
+F4 "Leaded Disk Varistors, Max. Operating Voltage [AC]=14Vrms, Max. Surge Current Imax(8/20us,1time)=500A" 550 -150 50 H I L CNN "Description"
+F5 "16" 550 -250 50 H I L CNN "Height"
+F6 "TDK" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "B72210S1140K501" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "871-B72210S1140K501" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72210S1140K501?qs=xN3cbABbNRaMbCGJ4Q1vYA%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "B72210S1140K501" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/b72210s1140k501/epcos-tdk" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 4 0 1 6 150 -100 250 -100 450 100 550 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

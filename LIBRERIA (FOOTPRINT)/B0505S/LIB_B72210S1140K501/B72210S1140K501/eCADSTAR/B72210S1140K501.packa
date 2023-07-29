@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B72210S1140K501"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-10-26-11:24:11)
+    (mountForm default
+        (footprintRef "B72210S1140K501")
+        (spec "System")
+    )
+)

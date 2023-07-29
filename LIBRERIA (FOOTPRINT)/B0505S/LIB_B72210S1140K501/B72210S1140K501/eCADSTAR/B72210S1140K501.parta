@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_3580313"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-26-11:24:11)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "B72210S1140K501")
+)
+
+
+(pinAssign "ECS_3580313"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-26-11:24:11)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_3580313")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "B72210S1140K501")
+)
+
+
+(part "B72210S1140K501"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-26-11:24:11)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "B72210S1140K501")
+    (pinAssignRef "ECS_3580313")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "RV")
+    (property "description" "Leaded Disk Varistors, Max. Operating Voltage [AC]=14Vrms, Max. Surge Current Imax(8/20us,1time)=500A")
+    (property "Manufacturer_Name" "TDK")
+    (property "Manufacturer_Part_Number" "B72210S1140K501")
+    (property "Mouser_Part_Number" "871-B72210S1140K501")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72210S1140K501?qs=xN3cbABbNRaMbCGJ4Q1vYA%3D%3D")
+    (property "Arrow_Part_Number" "B72210S1140K501")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/b72210s1140k501/epcos-tdk")
+    (property "Datasheet_Link" "https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_automotive.pdf")
+    (property "compAreaTopHeight" 16)
+)
+
+
