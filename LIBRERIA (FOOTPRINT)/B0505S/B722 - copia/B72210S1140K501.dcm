@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B72210S1140K501
+D Leaded Disk Varistors, Max. Operating Voltage [AC]=14Vrms, Max. Surge Current Imax(8/20us,1time)=500A
+K
+F https://product.tdk.com/system/files/dam/doc/product/protection/voltage/lead-disk-varistor/data_sheet/70/db/var/siov_leaded_automotive.pdf
+$ENDCMP
+#
+#End Doc Library
